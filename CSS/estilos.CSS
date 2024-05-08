@@ -1,0 +1,14 @@
+/*esto es un comentario en CSS*/
+body{
+    background-color: rgb(218, 208, 166);/*cambia el color de fondo de la pagina*/
+}
+/*encabezado*/
+/*parte principal*/
+
+h1{
+    color:blue;
+}
+p{
+    color:aqua;
+}
+/*pie*/
