@@ -3,7 +3,7 @@ body {
     background-color: rgb(255, 35, 101);
     /*cambiar color de fondo de la pagina*/
     color: #445566;
-    text-align: center;
+    text-align: center;/*centramos el texto*/
     margin: 0;/*eliminamos el margen natural del elemento*/
     font-family: serif;/*cambia el tipo de fuente*/
     

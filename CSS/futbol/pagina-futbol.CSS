@@ -1,0 +1,76 @@
+/*archivo de estilos*/
+body{
+    background-color:#ccff33 ;/*cambiar color de fondo de la pagina*/
+    text-align:center ;/*centramos el texto*/
+    margin: 0;/*eliminamos el margen natural del elemento*/
+    font-family:'Times New Roman', Times, serif;/*cambia el tipo de fuente*/
+    color: #8b8c89;
+}
+/*encabezado*/
+header{
+   background-color: #8b8c89;
+   padding:20px;
+   color: #ccff33;
+   text-transform: uppercase;/*ponemos en mayuscula el titulo*/
+}
+h1{
+    font-size: 2.5em; /*metrica em*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+/*main*/
+main{
+    padding: 20px;
+}
+section{
+    margin: 3px 2px; /*top-bottom left-right*/
+    background-color:#8b8c89 ;
+    border: 2px solid #ccff33;
+     
+}
+main section h2{
+margin-left: 10px;
+}
+main section p{
+    color: #ccff33;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.imagen{
+    margin: 10px;
+}
+/*footer*/
+footer{
+    background-color: #8b8c89;
+    text-transform: uppercase;
+}
+footer ul{
+    margin: 0;
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+   
+}
+.iconos{
+    width: 30px;
+    margin-left: 5px;
+}
+footer p{
+    color: #ccff33;
+}
